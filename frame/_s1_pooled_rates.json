@@ -1,0 +1,285 @@
+{
+ "_provenance": "Pooled across all 16 weirs' visit-day cells (2013-2026). Audit 2026-11-22 w26: re-run of frame/run_v6.py build_masked (seed 20261120) - per-item added counts bit-identical to the frozen run (sum 25,456, restored 0). Replaces the unit_pct rates in results_v6.md, which are per-weir snapshots of the last processed weir (5004A35 Juksan), with nationwide pooled rates. frame/results_v6.md stays frozen.",
+ "denominators": {
+  "mgmt": 5416,
+  "off": 6691
+ },
+ "items": {
+  "IEM_WTRTP": {
+   "added": 687,
+   "mg": [
+    "0.93",
+    "0.83"
+   ],
+   "off": [
+    "0.90",
+    "0.87"
+   ],
+   "n": {
+    "mgmt": 5416,
+    "off": 6691
+   },
+   "nBef": {
+    "mgmt": 5014,
+    "off": 6000
+   },
+   "nAft": {
+    "mgmt": 4514,
+    "off": 5813
+   }
+  },
+  "IEM_PH": {
+   "added": 694,
+   "mg": [
+    "0.93",
+    "0.83"
+   ],
+   "off": [
+    "0.90",
+    "0.87"
+   ],
+   "n": {
+    "mgmt": 5416,
+    "off": 6691
+   },
+   "nBef": {
+    "mgmt": 5014,
+    "off": 6000
+   },
+   "nAft": {
+    "mgmt": 4520,
+    "off": 5800
+   }
+  },
+  "IEM_DOC": {
+   "added": 1455,
+   "mg": [
+    "0.93",
+    "0.76"
+   ],
+   "off": [
+    "0.90",
+    "0.82"
+   ],
+   "n": {
+    "mgmt": 5416,
+    "off": 6691
+   },
+   "nBef": {
+    "mgmt": 5014,
+    "off": 6000
+   },
+   "nAft": {
+    "mgmt": 4091,
+    "off": 5468
+   }
+  },
+  "IEM_TUR": {
+   "added": 0,
+   "mg": [
+    "0.38",
+    "0.38"
+   ],
+   "off": [
+    "0.38",
+    "0.38"
+   ],
+   "n": {
+    "mgmt": 5416,
+    "off": 6691
+   },
+   "nBef": {
+    "mgmt": 2057,
+    "off": 2525
+   },
+   "nAft": {
+    "mgmt": 2057,
+    "off": 2525
+   }
+  },
+  "IEM_CHLA": {
+   "added": 3319,
+   "mg": [
+    "0.93",
+    "0.57"
+   ],
+   "off": [
+    "0.90",
+    "0.68"
+   ],
+   "n": {
+    "mgmt": 5416,
+    "off": 6691
+   },
+   "nBef": {
+    "mgmt": 5011,
+    "off": 5997
+   },
+   "nAft": {
+    "mgmt": 3107,
+    "off": 4582
+   }
+  },
+  "IEM_BGALAGE_MICROSTS": {
+   "added": 4085,
+   "mg": [
+    "0.61",
+    "0.26"
+   ],
+   "off": [
+    "0.61",
+    "0.29"
+   ],
+   "n": {
+    "mgmt": 5416,
+    "off": 6691
+   },
+   "nBef": {
+    "mgmt": 3310,
+    "off": 4101
+   },
+   "nAft": {
+    "mgmt": 1419,
+    "off": 1907
+   }
+  },
+  "IEM_BGALAGE_ANBA": {
+   "added": 4208,
+   "mg": [
+    "0.61",
+    "0.27"
+   ],
+   "off": [
+    "0.61",
+    "0.26"
+   ],
+   "n": {
+    "mgmt": 5416,
+    "off": 6691
+   },
+   "nBef": {
+    "mgmt": 3303,
+    "off": 4101
+   },
+   "nAft": {
+    "mgmt": 1476,
+    "off": 1720
+   }
+  },
+  "IEM_BGALAGE_OSRTRIA": {
+   "added": 3819,
+   "mg": [
+    "0.61",
+    "0.25"
+   ],
+   "off": [
+    "0.61",
+    "0.33"
+   ],
+   "n": {
+    "mgmt": 5416,
+    "off": 6691
+   },
+   "nBef": {
+    "mgmt": 3300,
+    "off": 4101
+   },
+   "nAft": {
+    "mgmt": 1343,
+    "off": 2239
+   }
+  },
+  "IEM_BGALAGE_APZO": {
+   "added": 3927,
+   "mg": [
+    "0.61",
+    "0.26"
+   ],
+   "off": [
+    "0.61",
+    "0.31"
+   ],
+   "n": {
+    "mgmt": 5416,
+    "off": 6691
+   },
+   "nBef": {
+    "mgmt": 3299,
+    "off": 4101
+   },
+   "nAft": {
+    "mgmt": 1383,
+    "off": 2090
+   }
+  },
+  "IEM_GEOSM": {
+   "added": 1838,
+   "mg": [
+    "0.46",
+    "0.28"
+   ],
+   "off": [
+    "0.47",
+    "0.34"
+   ],
+   "n": {
+    "mgmt": 5416,
+    "off": 6691
+   },
+   "nBef": {
+    "mgmt": 2514,
+    "off": 3131
+   },
+   "nAft": {
+    "mgmt": 1527,
+    "off": 2280
+   }
+  },
+  "IEM_MIB2": {
+   "added": 1236,
+   "mg": [
+    "0.39",
+    "0.27"
+   ],
+   "off": [
+    "0.27",
+    "0.18"
+   ],
+   "n": {
+    "mgmt": 5416,
+    "off": 6691
+   },
+   "nBef": {
+    "mgmt": 2123,
+    "off": 1787
+   },
+   "nAft": {
+    "mgmt": 1447,
+    "off": 1227
+   }
+  },
+  "IEM_MICROSTLR": {
+   "added": 188,
+   "mg": [
+    "0.06",
+    "0.03"
+   ],
+   "off": [
+    "0.05",
+    "0.04"
+   ],
+   "n": {
+    "mgmt": 5416,
+    "off": 6691
+   },
+   "nBef": {
+    "mgmt": 315,
+    "off": 326
+   },
+   "nAft": {
+    "mgmt": 158,
+    "off": 295
+   }
+  }
+ }
+}
