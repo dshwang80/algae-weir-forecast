@@ -45,12 +45,18 @@ frame/
   results_v6*.md          frozen result tables (manuscript reference values)
   results_v6_decomp_raw.json   run-pool mask parameterisation (Tier A input)
   _s1_pooled_rates.json   pooled availability rates (Table S1 reference)
+  pred_dump_v6_16_H7.csv  per-record forecast dump, H=7 test window (Table 2/Fig. 3 inputs)
+  _boot_arms_r28.py       scenario-difference cluster bootstrap (B=5,000, seed 20261122)
+                          -> results_v6_boot.md / _boot_arms_r28.json (Section 3.2 CIs)
 data_weir/
   algae_pre_measure_bo16_2013_2026.csv   processed 16-weir observation table (12,107 rows)
 probe/
   lgbm_probe_v2.py        LightGBM comparator (Hydrology-5 arm, H = 3/7/14)
   abc_H3.npz / abc_H7.npz  preprocessed comparator inputs (+ .sha256 sidecars)
   _lgbm_v2_full.json      comparator result dump (manuscript S4 / abstract anchor)
+  sejong_ablate.py        Seongju (G1/G2/G3)-focused ablation script
+  results_lgbm.md         frozen LightGBM diagnostic tables (Table 4 source)
+  results_abc.md          frozen A/B/C arm summary (Table 4 / Fig. 5 source)
 ```
 
 ## Environment
